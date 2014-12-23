@@ -4,6 +4,9 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 
 public class MainScreen extends ActionBarActivity {
@@ -35,5 +38,10 @@ public class MainScreen extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void createCharacter(View view) {
+        TextView buttonText = (TextView) view;
+        buttonText.setText(R.string.hello_world);
     }
 }

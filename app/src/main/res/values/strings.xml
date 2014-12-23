@@ -4,5 +4,6 @@
     <string name="app_name">TormentaRPGCharacterManager</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="newCharacter">Criar um novo personagem</string>
 
 </resources>
