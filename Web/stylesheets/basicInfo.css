@@ -1,0 +1,143 @@
+#BasicInfo {
+	width: 45%;
+	height: 150px;
+	margin-left: 15%;
+	display: inline-block;
+}
+#Logo {
+	width: 25%;
+	height: 150px;
+	float: right;
+	margin-right: 15%;
+	background-color: #e7e7e7;
+}
+
+#Name {
+	width: 402px;
+	display: inline-block;
+}
+#Name .input { width: 402px; }
+#Name .input span {
+	padding-left: 1px;
+	padding-right: 2px;
+}
+#Name .input span input { width: 392px; }
+
+#Player {
+	width: 402px;
+	display: inline-block;
+}
+#Player .input { width: 402px; }
+#Player .input span {
+	padding-left: 2px;
+	padding-right: 1px;
+}
+#Player .input span input { width: 392px; }
+
+#Race {
+	width: 200px;
+	display: inline-block;
+}
+#Race .input { width: 200px; }
+#Race .input span {
+	padding-left: 1px;
+	padding-right: 2px;
+}
+#Race .input span input { width: 190px; }
+
+#Class {
+	width: 350px;
+	display: inline-block;
+}
+#Class .input { width: 350px; }
+#Class .input span {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+#Class .input span input { width: 340px; }
+
+#Alignment {
+	width: 250px;
+	display: inline-block;
+}
+#Alignment .input { width: 250px; }
+#Alignment .input span {
+	padding-left: 2px;
+	padding-right: 1px;
+}
+#Alignment .input span input { width: 240px; }
+
+#Gender {
+	width: 159px;
+	display: inline-block;
+}
+#Gender .input { width: 159px; }
+#Gender .input span {
+	padding-left: 2px;
+	padding-right: 1px;
+}
+#Gender .input span input { width: 149px; }
+
+#Age {
+	width: 159px;
+	display: inline-block;
+}
+#Age .input { width: 159px; }
+#Age .input span {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+#Age .input span input { width: 149px; }
+
+#Deity {
+	width: 158px;
+	display: inline-block;
+}
+#Deity .input { width: 158px; }
+#Deity .input span {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+#Deity .input span input { width: 148px; }
+
+#Size {
+	width: 158px;
+	display: inline-block;
+}
+#Size .input { width: 158px; }
+#Size .input span {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+#Size .input span input { width: 148px; }
+
+#Displacement {
+	width: 158px;
+	display: inline-block;
+}
+#Displacement .input { width: 158px; }
+#Displacement .input span {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+#Displacement .input span input { width: 148px; }
+
+.textContainer {
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+.inputText {
+	width: 150px;
+	display: inline-block;
+}
+.input {
+	width: 150px;
+	display: inline-block;
+}
+input { 
+	display: inline-block;
+	margin: 0;
+	border: none;
+	border-bottom: solid 1px #000000;
+}
+.inputText span { margin-left: 5px; }
